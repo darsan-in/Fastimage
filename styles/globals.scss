@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Optional: Hide scrollbar for Firefox */
+    scrollbar-width: none;
+    transition: all;
+    transition-duration: 700ms;
+}
+
+* {
+    box-sizing: content-box;
+}
