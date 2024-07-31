@@ -1,15 +1,12 @@
-/* const query = "dog walk";
-const page = 2; */
-
 import { fetchSource } from "../broker";
 import { imageMeta } from "../getimagelist";
-import { FreePikSchema } from "./freepikSchema";
+import { PexelResponse } from "./pexelSchema";
 import RequestOptions from "./requestOptions";
 
 export default (query: string, page: number): Promise<imageMeta[]> => {
-  const url = `www.freepik.com/api/regular/search?locale=en&order=relevance&term=${encodeURI(
+  const url: string = `www.pexels.com/en-us/api/v3/search/photos?page=${page}&per_page=24&query=${encodeURI(
     query
-  )}&${page > 1 ? `page=${page}` : ""}`;
+  )}&orientation=all&size=all&color=all&sort=popular&seo_tags=true`;
 
   const splitedUrl: string[] = url.split("/");
 
@@ -21,14 +18,14 @@ export default (query: string, page: number): Promise<imageMeta[]> => {
   return new Promise((resolve, reject) => {
     fetchSource(requestOptions)
       .then((response: string) => {
-        const parsedResponse: FreePikSchema = JSON.parse(response);
-        const totalPages: number = parsedResponse.pagination.total;
+        const parsedResponse: PexelResponse = JSON.parse(response);
+        const totalPages: number = parsedResponse.pagination.total_pages;
 
-        const imageRecords = parsedResponse.items.map(
+        const imageRecords = parsedResponse.data.map(
           (imageRecord): imageMeta => {
             return {
-              preview: imageRecord.preview.url,
-              source: imageRecord.url,
+              preview: imageRecord.attributes.image.download_link,
+              source: imageRecord.attributes.image.download,
             };
           }
         );

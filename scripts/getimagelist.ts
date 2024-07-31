@@ -1,4 +1,5 @@
 import freepikFetch from "./freepik/freepikFetch";
+import pexelFetch from "./pexels/pexelFetch";
 
 export interface imageMeta {
   preview: string;
@@ -21,7 +22,10 @@ function _makeBatches(imageRecord: imageMeta[]): imageMeta[][] {
 
 export default (query: string, page: number): Promise<imageMeta[][]> => {
   return new Promise((resolve, reject) => {
-    freepikFetch(query, page)
+    Promise.all([freepikFetch(query, page), pexelFetch(query, page)])
+      .then((imageMeta: imageMeta[][]) => {
+        return imageMeta.flat();
+      })
       .then(_makeBatches)
       .then((batchedImageMeta: imageMeta[][]) => {
         resolve(batchedImageMeta);
