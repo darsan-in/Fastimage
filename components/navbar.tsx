@@ -1,4 +1,8 @@
-export default () => {
+export default ({
+  formCallback,
+}: {
+  formCallback: (query: string) => void;
+}) => {
   return (
     <nav className="bg-white border-b">
       <div className="flex items-center space-x-8 py-3 px-4 max-w-screen-xl mx-auto md:px-8">
@@ -11,7 +15,18 @@ export default () => {
         </div>
         <div className="flex-1 flex items-center justify-between">
           <div className="flex-1 flex items-center justify-end space-x-2 sm:space-x-6">
-            <form className="flex items-center space-x-2 border rounded-md p-2">
+            <form
+              className="flex items-center space-x-2 border rounded-md p-2"
+              onSubmit={(event) => {
+                event.preventDefault();
+
+                const queryElem: HTMLInputElement = document.getElementById(
+                  "query-inp"
+                ) as HTMLInputElement;
+
+                formCallback(queryElem.value);
+              }}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 flex-none text-gray-300"
@@ -27,6 +42,7 @@ export default () => {
                 />
               </svg>
               <input
+                id="query-inp"
                 className="w-full outline-none appearance-none placeholder-gray-500 text-gray-500 sm:w-auto"
                 type="text"
                 placeholder="Search"
