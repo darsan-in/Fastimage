@@ -1,5 +1,6 @@
 import freepikFetch from "./freepik/freepikFetch";
 import pexelFetch from "./pexels/pexelFetch";
+import picwizardFetch from "./pikwizard/picwizardFetch";
 import unsplashFetch from "./unsplash/unsplashFetch";
 
 export interface imageMeta {
@@ -27,6 +28,7 @@ export default (query: string, page: number): Promise<imageMeta[][]> => {
       freepikFetch(query, page),
       pexelFetch(query, page),
       unsplashFetch(query, page),
+      picwizardFetch(query, page),
     ])
       .then((imageMeta: imageMeta[][]) => {
         return imageMeta.flat();

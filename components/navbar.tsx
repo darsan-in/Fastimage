@@ -3,12 +3,22 @@ export default ({
 }: {
   formCallback: (query: string) => void;
 }) => {
+  const submitFunction = (event) => {
+    event.preventDefault();
+
+    const queryElem: HTMLInputElement = document.getElementById(
+      "query-inp"
+    ) as HTMLInputElement;
+
+    formCallback(queryElem.value);
+  };
+
   return (
-    <nav className="bg-white border-b">
+    <nav className="bg-white border-b rounded-b-2xl py-1">
       <div className="flex items-center space-x-8 py-3 px-4 max-w-screen-xl mx-auto md:px-8">
         <div className="flex-none lg:flex-initial">
           <a href="/">
-            <p className="text-3xl font-semibold text-primary text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5] tracking-wide">
+            <p className="text-3xl font-bold text-primary text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-[#E114E5] tracking-widest">
               FASTIMAGE
             </p>
           </a>
@@ -17,17 +27,10 @@ export default ({
           <div className="flex-1 flex items-center justify-end space-x-2 sm:space-x-6">
             <form
               className="flex items-center space-x-2 border rounded-md p-2"
-              onSubmit={(event) => {
-                event.preventDefault();
-
-                const queryElem: HTMLInputElement = document.getElementById(
-                  "query-inp"
-                ) as HTMLInputElement;
-
-                formCallback(queryElem.value);
-              }}
+              onSubmit={submitFunction}
             >
               <svg
+                onClick={submitFunction}
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5 flex-none text-gray-300"
                 fill="none"

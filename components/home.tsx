@@ -3,6 +3,7 @@
 import { useState } from "react";
 import ImageRow from "./image-row";
 import Navbar from "./navbar";
+import Waitroom from "./waitroom";
 
 export default () => {
   const [imageData, setImageData] = useState([]);
@@ -25,11 +26,15 @@ export default () => {
             .catch(console.error);
         }}
       />
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10">
-        {imageData.map((imageBatch, idx) => (
-          <ImageRow imageRecord={imageBatch} key={idx} />
-        ))}
-      </div>
+      {imageData.length === 0 ? (
+        <Waitroom />
+      ) : (
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 p-10">
+          {imageData.map((imageBatch, idx) => (
+            <ImageRow imageRecord={imageBatch} key={idx} />
+          ))}
+        </div>
+      )}
     </>
   );
 };
