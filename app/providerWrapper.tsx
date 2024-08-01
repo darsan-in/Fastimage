@@ -6,16 +6,25 @@ import Banner from "../components/banner";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
-export const NavContext = createContext<{ imageData: any }>({
-  imageData: [],
-} as any);
+interface AppStateType {
+  imageData: any[][];
+  isLoading: boolean;
+}
+
+export const NavContext = createContext<{ appState: AppStateType }>({
+  appState: { imageData: [], isLoading: false },
+});
 
 export default ({ children }: { children: React.ReactNode }) => {
-  const [imageData, setImageData] = useState([]);
+  const [appState, setAppState] = useState<AppStateType>({
+    imageData: [],
+    isLoading: false,
+  });
+
   const router = useRouter();
 
   return (
-    <NavContext.Provider value={{ imageData }}>
+    <NavContext.Provider value={{ appState }}>
       <header>
         <Banner />
 
@@ -29,6 +38,10 @@ export default ({ children }: { children: React.ReactNode }) => {
               page: page,
             });
 
+            /* set load state */
+            setAppState({ imageData: appState.imageData, isLoading: true });
+            /*  */
+
             fetch(
               `https://asia-south1-bonse-430603.cloudfunctions.net/fastimage-api`,
               {
@@ -40,11 +53,17 @@ export default ({ children }: { children: React.ReactNode }) => {
                 response
                   .json()
                   .then((data) => {
-                    setImageData(data.results);
+                    setAppState({ imageData: data.results, isLoading: false });
                   })
-                  .catch(console.error);
+                  .catch((err) => {
+                    console.error(err);
+                    router.refresh();
+                  });
               })
-              .catch(console.error);
+              .catch((err) => {
+                console.error(err);
+                router.refresh();
+              });
           }}
         />
       </header>
