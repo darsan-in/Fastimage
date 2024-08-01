@@ -24,7 +24,15 @@ export default ({ children }: { children: React.ReactNode }) => {
             const page = 1;
             router.replace("/");
 
-            fetch(`/api/images?query=${query}&page=${page}`)
+            const formData: string = JSON.stringify({
+              query: query,
+              page: page,
+            });
+
+            fetch(`http://localhost:8080`, {
+              method: "POST",
+              body: formData,
+            })
               .then((response) => {
                 response
                   .json()
