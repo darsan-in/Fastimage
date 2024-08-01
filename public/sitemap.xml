@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://fastimage.darsan.in/terms-and-conditions</loc>
+        <lastmod>2024-08-02T03:20:50.713+05:30</lastmod>
+    </url>
+    <url>
+        <loc>https://fastimage.darsan.in/privacy-policy</loc>
+        <lastmod>2024-08-02T03:20:50.698+05:30</lastmod>
+    </url>
+    <url>
+        <loc>https://fastimage.darsan.in/</loc>
+        <lastmod>2024-08-02T03:20:50.666+05:30</lastmod>
+    </url>
+    <url>
+        <loc>https://fastimage.darsan.in/disclaimer</loc>
+        <lastmod>2024-08-02T03:20:50.698+05:30</lastmod>
+    </url>
+    <url>
+        <loc>https://fastimage.darsan.in/404</loc>
+        <lastmod>2024-08-02T03:20:55.578+05:30</lastmod>
+    </url>
+</urlset>

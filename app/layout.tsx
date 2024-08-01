@@ -9,10 +9,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Fastimage</title>
+        <title>Free HD Image Search Engine - Fastimage</title>
         <meta
           name="description"
-          content="Search engine for collections of images from top free HD image providers."
+          content="Discover and download free HD images from multiple providers with Fastimage, the fastest and most reliable image search engine."
         />
       </head>
       <body>
