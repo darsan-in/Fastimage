@@ -29,10 +29,13 @@ export default ({ children }: { children: React.ReactNode }) => {
               page: page,
             });
 
-            fetch(`http://localhost:8080`, {
-              method: "POST",
-              body: formData,
-            })
+            fetch(
+              `https://asia-south1-bonse-430603.cloudfunctions.net/fastimage-api`,
+              {
+                method: "POST",
+                body: formData,
+              }
+            )
               .then((response) => {
                 response
                   .json()
