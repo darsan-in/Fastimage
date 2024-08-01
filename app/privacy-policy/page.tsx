@@ -70,17 +70,17 @@ export default () => (
       <b>THE USER</b> is the individual using our Service. The User corresponds
       to the Data Subject, who is the subject of Personal Data.
     </p>
-    <p>
+    {/*  <p>
       3. <b>Information Collection and Use</b>
     </p>
     <p>
       We collect several different types of information for various purposes to
       provide and improve our Service to you.
-    </p>
+    </p> */}
     <p>
-      4. <b>Types of Data Collected</b>
+      3. <b>Types of Data Collected</b>
     </p>
-    <p>
+    {/* <p>
       <b>Personal Data</b>
     </p>
     <p>
@@ -99,7 +99,7 @@ export default () => (
       or promotional materials and other information that may be of interest to
       you. You may opt out of receiving any, or all, of these communications
       from us by following the unsubscribe link.
-    </p>
+    </p> */}
     <p>
       <b>Usage Data</b>
     </p>
@@ -122,7 +122,7 @@ export default () => (
       Internet browser you use, unique device identifiers and other diagnostic
       data.
     </p>
-    <p>
+    {/* <p>
       <b>Tracking Cookies Data</b>
     </p>
     <p>
@@ -157,8 +157,8 @@ export default () => (
     <p>
       0.4. <b>Advertising Cookies:</b> Advertising Cookies are used to serve you
       with advertisements that may be relevant to you and your interests.
-    </p>
-    <p>
+    </p> */}
+    {/* <p>
       <b>Other Data</b>
     </p>
     <p>
@@ -173,9 +173,9 @@ export default () => (
       , information on bonuses and compensation, information on marital status,
       family members, social security (or other taxpayer identification) number,
       office location and other data.
-    </p>
+    </p> */}
     <p>
-      5. <b>Use of Data</b>
+      4. <b>Use of Data</b>
     </p>
     <p>Fastimage uses the collected data for various purposes:</p>
     <p>0.1. to provide and maintain our Service;</p>
@@ -212,7 +212,7 @@ export default () => (
     </p>
     <p>0.13. for any other purpose with your consent.</p>
     <p>
-      6. <b>Retention of Data</b>
+      5. <b>Retention of Data</b>
     </p>
     <p>
       We will retain your Personal Data only for as long as is necessary for the
@@ -229,7 +229,7 @@ export default () => (
       or we are legally obligated to retain this data for longer time periods.
     </p>
     <p>
-      7. <b>Transfer of Data</b>
+      6. <b>Transfer of Data</b>
     </p>
     <p>
       Your information, including Personal Data, may be transferred to – and
@@ -238,9 +238,9 @@ export default () => (
       differ from those of your jurisdiction.
     </p>
     <p>
-      If you are located outside USA, India and choose to provide information to
-      us, please note that we transfer the data, including Personal Data, to
-      USA, India and process it there.
+      If you are located outside USA or India and choose to provide information
+      to us, please note that we transfer the data, including Personal Data, to
+      USA and India to process it there.
     </p>
     <p>
       Your consent to this Privacy Policy followed by your submission of such
@@ -254,7 +254,7 @@ export default () => (
       of your data and other personal information.
     </p>
     <p>
-      8. <b>Disclosure of Data</b>
+      7. <b>Disclosure of Data</b>
     </p>
     <p>We may disclose personal information that we collect, or you provide:</p>
     <p>
@@ -294,7 +294,7 @@ export default () => (
       rights, property, or safety of the Company, our customers, or others.
     </p>
     <p>
-      9. <b>Security of Data</b>
+      8. <b>Security of Data</b>
     </p>
     <p>
       The security of your data is important to us but remember that no method
@@ -303,7 +303,7 @@ export default () => (
       your Personal Data, we cannot guarantee its absolute security.
     </p>
     <p>
-      10.{" "}
+      9.{" "}
       <b>
         Your Data Protection Rights Under General Data Protection Regulation
         (GDPR)
@@ -364,7 +364,7 @@ export default () => (
       (EEA).
     </p>
     <p>
-      11.{" "}
+      10.{" "}
       <b>
         Your Data Protection Rights under the California Privacy Protection Act
         (CalOPPA)
@@ -394,7 +394,7 @@ export default () => (
       0.4. users are able to change their personal information by emailing us at{" "}
       <b>hello@darsan.in</b>.
     </p>
-    <p>Our Policy on “Do Not Track” Signals:</p>
+    {/* <p>Our Policy on “Do Not Track” Signals:</p>
     <p>
       We honor Do Not Track signals and do not track, plant cookies, or use
       advertising when a Do Not Track browser mechanism is in place. Do Not
@@ -404,9 +404,9 @@ export default () => (
     <p>
       You can enable or disable Do Not Track by visiting the Preferences or
       Settings page of your web browser.
-    </p>
+    </p> */}
     <p>
-      12.{" "}
+      11.{" "}
       <b>
         Your Data Protection Rights under the California Consumer Privacy Act
         (CCPA)
@@ -504,7 +504,7 @@ export default () => (
       on 01/01/2020.
     </p>
     <p>
-      13. <b>Service Providers</b>
+      12. <b>Service Providers</b>
     </p>
     <p>
       We may employ third party companies and individuals to facilitate our
@@ -518,28 +518,28 @@ export default () => (
       any other purpose.
     </p>
     <p>
-      14. <b>Analytics</b>
+      13. <b>Analytics</b>
     </p>
     <p>
       We may use third-party Service Providers to monitor and analyze the use of
       our Service.
     </p>
     <p>
-      15. <b>CI/CD tools</b>
+      14. <b>CI/CD tools</b>
     </p>
     <p>
       We may use third-party Service Providers to automate the development
       process of our Service.
     </p>
     <p>
-      16. <b>Advertising</b>
+      15. <b>Advertising</b>
     </p>
     <p>
       We may use third-party Service Providers to show advertisements to you to
       help support and maintain our Service.
     </p>
     <p>
-      17. <b>Behavioral Remarketing</b>
+      16. <b>Behavioral Remarketing</b>
     </p>
     <p>
       We may use remarketing services to advertise on third party websites to
@@ -548,7 +548,7 @@ export default () => (
       Service.
     </p>
     <p>
-      18. <b>Links to Other Sites</b>
+      17. <b>Links to Other Sites</b>
     </p>
     <p>
       Our Service may contain links to other sites that are not operated by us.
@@ -561,21 +561,7 @@ export default () => (
       privacy policies or practices of any third party sites or services.
     </p>
     <p>
-      For example, the outlined{" "}
-      <a href="https://policymaker.io/privacy-policy/">privacy policy</a> has
-      been made using <a href="https://policymaker.io/">PolicyMaker.io</a>, a
-      free tool that helps create high-quality legal documents. PolicyMaker’s{" "}
-      <a href="https://policymaker.io/privacy-policy/">
-        privacy policy generator
-      </a>{" "}
-      is an easy-to-use tool for creating a{" "}
-      <a href="https://policymaker.io/blog-privacy-policy/">
-        privacy policy for blog
-      </a>
-      , website, e-commerce store or mobile app.
-    </p>
-    <p>
-      19.{" "}
+      18.{" "}
       <b>
         <b>Children’s Privacy</b>
       </b>
@@ -592,7 +578,7 @@ export default () => (
       consent, we take steps to remove that information from our servers.
     </p>
     <p>
-      20. <b>Changes to This Privacy Policy</b>
+      19. <b>Changes to This Privacy Policy</b>
     </p>
     <p>
       We may update our Privacy Policy from time to time. We will notify you of
@@ -609,7 +595,7 @@ export default () => (
       on this page.
     </p>
     <p>
-      21. <b>Contact Us</b>
+      20. <b>Contact Us</b>
     </p>
     <p>
       If you have any questions about this Privacy Policy, please contact us by

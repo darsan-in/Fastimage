@@ -29,7 +29,7 @@ export default () => (
       <b>hello@darsan.in</b> so we can try to find a solution. These Terms apply
       to all visitors, users and others who wish to access or use Service.
     </p>
-    <p>
+    {/*     <p>
       2. <b>Communications</b>
     </p>
     <p>
@@ -37,10 +37,10 @@ export default () => (
       promotional materials and other information we may send. However, you may
       opt out of receiving any, or all, of these communications from us by
       following the unsubscribe link or by emailing at hello@darsan.in.
-    </p>
+    </p> */}
 
     <p>
-      3. <b>Contests, Sweepstakes and Promotions</b>
+      2. <b>Contests, Sweepstakes and Promotions</b>
     </p>
     <p>
       Any contests, sweepstakes or other promotions (collectively, “Promotions”)
@@ -52,17 +52,16 @@ export default () => (
     </p>
 
     <p>
-      4. <b>Content</b>
+      3. <b>Content</b>
     </p>
     <p>
-      Content found on or through this Service are the property of Fastimage or
-      used with permission. You may not distribute, modify, transmit, reuse,
-      download, repost, copy, or use said Content, whether in whole or in part,
-      for commercial purposes or for personal gain, without express advance
-      written permission from us.
+      The images displayed on this Site are provided by third-party image
+      providers, and Fastimage does not hold copyright to these images. We are
+      an intermediary search engine and do not claim ownership of the images.
+      The copyright for all images remains with their respective owners.
     </p>
     <p>
-      5. <b>Prohibited Uses</b>
+      4. <b>Prohibited Uses</b>
     </p>
     <p>
       You may use Service only for lawful purposes and in accordance with Terms.
@@ -77,22 +76,22 @@ export default () => (
       harm minors in any way by exposing them to inappropriate content or
       otherwise.
     </p>
-    <p>
+    {/* <p>
       0.3. To transmit, or procure the sending of, any advertising or
       promotional material, including any “junk mail”, “chain letter,” “spam,”
       or any other similar solicitation.
-    </p>
-    <p>
+    </p> */}
+    {/*  <p>
       0.4. To impersonate or attempt to impersonate Company, a Company employee,
       another user, or any other person or entity.
-    </p>
+    </p> */}
     <p>
-      0.5. In any way that infringes upon the rights of others, or in any way is
+      0.3. In any way that infringes upon the rights of others, or in any way is
       illegal, threatening, fraudulent, or harmful, or in connection with any
       unlawful, illegal, fraudulent, or harmful purpose or activity.
     </p>
     <p>
-      0.6. To engage in any other conduct that restricts or inhibits anyone’s
+      0.4. To engage in any other conduct that restricts or inhibits anyone’s
       use or enjoyment of Service, or which, as determined by us, may harm or
       offend Company or users of Service or expose them to liability.
     </p>
@@ -129,19 +128,19 @@ export default () => (
       0.7. Attack Service via a denial-of-service attack or a distributed
       denial-of-service attack.
     </p>
-    <p>0.8. Take any action that may damage or falsify Company rating.</p>
+    {/* <p>0.8. Take any action that may damage or falsify Company rating.</p> */}
     <p>
-      0.9. Otherwise attempt to interfere with the proper working of Service.
+      0.8. Otherwise attempt to interfere with the proper working of Service.
     </p>
     <p>
-      6. <b>Analytics</b>
+      5. <b>Analytics</b>
     </p>
     <p>
       We may use third-party Service Providers to monitor and analyze the use of
       our Service.
     </p>
     <p>
-      7. <b>No Use By Minors</b>
+      6. <b>No Use By Minors</b>
     </p>
     <p>
       Service is intended only for access and use by individuals at least
@@ -153,7 +152,7 @@ export default () => (
       of Service.
     </p>
 
-    <p>
+    {/*   <p>
       8. <b>Intellectual Property</b>
     </p>
     <p>
@@ -163,32 +162,35 @@ export default () => (
       and other laws of and foreign countries. Our trademarks may not be used in
       connection with any product or service without the prior written consent
       of Fastimage.
+    </p> */}
+    <p id="crp">
+      7. <b>Copyright Policy</b>
     </p>
     <p>
-      9. <b>Copyright Policy</b>
+      We respect the intellectual property rights of others and operate as an
+      intermediary search engine for images. All images provided through
+      Fastimage are sourced from third-party providers, and we do not hold any
+      copyright or ownership rights for these images. Our role is limited to
+      aggregating and presenting image search results from various external
+      sources.
     </p>
     <p>
-      We respect the intellectual property rights of others. It is our policy to
-      respond to any claim that Content posted on Service infringes on the
-      copyright or other intellectual property rights (“Infringement”) of any
-      person or entity.
+      If you are a copyright owner or authorized representative, and you believe
+      that content on Fastimage infringes upon your copyright or intellectual
+      property rights, please submit your claim via email to hello@darsan.in
+      with the subject line: “Copyright Infringement.” Your claim should include
+      a detailed description of the alleged infringement, as outlined below
+      under “DMCA Notice and Procedure for Copyright Infringement Claims.”
     </p>
     <p>
-      If you are a copyright owner, or authorized on behalf of one, and you
-      believe that the copyrighted work has been copied in a way that
-      constitutes copyright infringement, please submit your claim via email to
-      hello@darsan.in, with the subject line: “Copyright Infringement” and
-      include in your claim a detailed description of the alleged Infringement
-      as detailed below, under “DMCA Notice and Procedure for Copyright
-      Infringement Claims”
+      Please note that Fastimage does not assume any responsibility for the
+      content provided by third-party sources. We are not liable for any
+      copyright infringement claims related to images obtained through our
+      service. Misrepresentation or bad-faith claims may result in
+      accountability for damages, including costs and attorneys’ fees.
     </p>
     <p>
-      You may be held accountable for damages (including costs and attorneys’
-      fees) for misrepresentation or bad-faith claims on the infringement of any
-      Content found on and/or through Service on your copyright.
-    </p>
-    <p>
-      10. <b>DMCA Notice and Procedure for Copyright Infringement Claims</b>
+      8. <b>DMCA Notice and Procedure for Copyright Infringement Claims</b>
     </p>
     <p>
       You may submit a notification pursuant to the Digital Millennium Copyright
@@ -221,7 +223,7 @@ export default () => (
     </p>
     <p>You can contact our Copyright Agent via email at hello@darsan.in.</p>
     <p>
-      11. <b>Error Reporting and Feedback</b>
+      9. <b>Error Reporting and Feedback</b>
     </p>
     <p>
       You may provide us either directly at hello@darsan.in or via third party
@@ -242,7 +244,7 @@ export default () => (
       manner and for any purpose.
     </p>
     <p>
-      12. <b>Links To Other Web Sites</b>
+      10. <b>Links To Other Web Sites</b>
     </p>
     <p>
       Our Service may contain links to third party web sites or services that
@@ -254,18 +256,7 @@ export default () => (
       services. We do not warrant the offerings of any of these
       entities/individuals or their websites.
     </p>
-    <p>
-      For example, the outlined{" "}
-      <a href="https://policymaker.io/terms-and-conditions/">Terms of Use</a>{" "}
-      have been created using{" "}
-      <a href="https://policymaker.io/">PolicyMaker.io</a>, a free web
-      application for generating high-quality legal documents. PolicyMaker’s{" "}
-      <a href="https://policymaker.io/terms-and-conditions/">
-        Terms and Conditions generator
-      </a>{" "}
-      is an easy-to-use free tool for creating an excellent standard Terms of
-      Service template for a website, blog, e-commerce store or app.
-    </p>
+
     <p>
       YOU ACKNOWLEDGE AND AGREE THAT COMPANY SHALL NOT BE RESPONSIBLE OR LIABLE,
       DIRECTLY OR INDIRECTLY, FOR ANY DAMAGE OR LOSS CAUSED OR ALLEGED TO BE
@@ -278,7 +269,7 @@ export default () => (
       OF ANY THIRD PARTY WEB SITES OR SERVICES THAT YOU VISIT.
     </p>
     <p>
-      13. <b>Disclaimer Of Warranty</b>
+      11. <b>Disclaimer Of Warranty</b>
     </p>
     <p>
       THESE SERVICES ARE PROVIDED BY COMPANY ON AN “AS IS” AND “AS AVAILABLE”
@@ -311,7 +302,7 @@ export default () => (
       LIMITED UNDER APPLICABLE LAW.
     </p>
     <p>
-      14. <b>Limitation Of Liability</b>
+      12. <b>Limitation Of Liability</b>
     </p>
     <p>
       EXCEPT AS PROHIBITED BY LAW, YOU WILL HOLD US AND OUR OFFICERS, DIRECTORS,
@@ -333,7 +324,7 @@ export default () => (
       SO THE PRIOR LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU.
     </p>
     <p>
-      15. <b>Termination</b>
+      13. <b>Termination</b>
     </p>
     <p>
       We may terminate or suspend your account and bar access to Service
@@ -351,7 +342,7 @@ export default () => (
       provisions, warranty disclaimers, indemnity and limitations of liability.
     </p>
     <p>
-      16. <b>Governing Law</b>
+      14. <b>Governing Law</b>
     </p>
     <p>
       These Terms shall be governed and construed in accordance with the laws of
@@ -367,7 +358,7 @@ export default () => (
       prior agreements we might have had between us regarding Service.
     </p>
     <p>
-      17. <b>Changes To Service</b>
+      15. <b>Changes To Service</b>
     </p>
     <p>
       We reserve the right to withdraw or amend our Service, and any service or
@@ -378,7 +369,7 @@ export default () => (
       including registered users.
     </p>
     <p>
-      18. <b>Amendments To Terms</b>
+      16. <b>Amendments To Terms</b>
     </p>
     <p>
       We may amend Terms at any time by posting the amended terms on this site.
@@ -396,7 +387,7 @@ export default () => (
       to the new terms, you are no longer authorized to use Service.
     </p>
     <p>
-      19. <b>Waiver And Severability</b>
+      17. <b>Waiver And Severability</b>
     </p>
     <p>
       No waiver by Company of any term or condition set forth in Terms shall be
@@ -413,14 +404,14 @@ export default () => (
       force and effect.
     </p>
     <p>
-      20. <b>Acknowledgement</b>
+      18. <b>Acknowledgement</b>
     </p>
     <p>
       BY USING SERVICE OR OTHER SERVICES PROVIDED BY US, YOU ACKNOWLEDGE THAT
       YOU HAVE READ THESE TERMS OF SERVICE AND AGREE TO BE BOUND BY THEM.
     </p>
     <p>
-      21. <b>Contact Us</b>
+      19. <b>Contact Us</b>
     </p>
     <p>
       Please send your feedback, comments, requests for technical support by

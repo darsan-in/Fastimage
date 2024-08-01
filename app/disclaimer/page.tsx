@@ -37,14 +37,7 @@ export default () => (
       FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF
       PRODUCTS OR SERVICES.
     </p>
-    <p>
-      <b>AFFILIATES DISCLAIMER</b>
-    </p>
-    <p>
-      The Site may contain links to affiliate websites, and we may receive an
-      affiliate commission for any purchases or actions made by you on the
-      affiliate websites using such links.
-    </p>
+
     <p>
       <b>ERRORS AND OMISSIONS DISCLAIMER</b>
     </p>
@@ -57,7 +50,7 @@ export default () => (
       results obtained from the use of this information, and without warranty of
       any kind, express or implied, including, but not limited to warranties of
       performance, merchantability, and fitness for a particular purpose.
-    </p>{" "}
+    </p>
     <p>
       In no event will Fastimage, its related partnerships or corporations, or
       the partners, agents or employees thereof be liable to you or anyone else
@@ -74,6 +67,15 @@ export default () => (
       owners. Any inclusion of such trademarks or logos does not imply or
       constitute any approval, endorsement or sponsorship of Fastimage by such
       owners.
+    </p>
+    <p>
+      <b>COPYRIGHT NOTICE</b>
+    </p>
+    <p>
+      The images displayed on this Site are provided by third-party image
+      providers, and Fastimage does not hold copyright to these images. We are
+      an intermediary search engine and do not claim ownership of the images.
+      The copyright for all images remains with their respective owners.
     </p>
     <p>
       <b>CONTACT US</b>

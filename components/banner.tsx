@@ -6,7 +6,7 @@ export default () => {
           Our search engine indexes images from third-party repositories. We do
           not own the copyright; it remains with the original creators.
           <a
-            href="/disclaimer"
+            href="/terms-and-conditions#crp"
             className="font-semibold underline duration-150 hover:text-indigo-100 inline-flex items-center gap-x-1"
           >
             Learn more
