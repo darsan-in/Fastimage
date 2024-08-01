@@ -1,4 +1,7 @@
-import { imageMeta } from "../scripts/getimagelist";
+interface imageMeta {
+  preview: string;
+  source: string;
+}
 
 export default ({ imageRecord }: { imageRecord: imageMeta[] }) => {
   return (
