@@ -13,7 +13,7 @@ export default () => {
         </div>
         <div className="flex w-[90%] justify-center items-center my-10 pl-6">
           <h2 className="text-center w-full p-8 sm:w-auto lg:py-4 bg-gray-50 rounded-3xl">
-            <span className="text-5xl text-primary font-bold">♾️</span>
+            <span className="text-7xl text-primary font-bold">∞</span>
             <p className="mt-3 font-bold text-xl">Images</p>
           </h2>
         </div>

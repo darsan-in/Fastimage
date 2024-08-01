@@ -1,31 +1,15 @@
 "use client";
 
-import { useState } from "react";
+import { useContext } from "react";
+import { LayoutContext } from "../app/layout";
 import ImageRow from "./image-row";
-import Navbar from "./navbar";
 import Waitroom from "./waitroom";
 
 export default () => {
-  const [imageData, setImageData] = useState([]);
+  const { imageData, setImageData } = useContext(LayoutContext);
 
   return (
     <>
-      <Navbar
-        formCallback={(query) => {
-          const page = 1;
-
-          fetch(`/api/images?query=${query}&page=${page}`)
-            .then((response) => {
-              response
-                .json()
-                .then((data) => {
-                  setImageData(data.results);
-                })
-                .catch(console.error);
-            })
-            .catch(console.error);
-        }}
-      />
       {imageData.length === 0 ? (
         <Waitroom />
       ) : (

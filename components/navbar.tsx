@@ -10,7 +10,9 @@ export default ({
       "query-inp"
     ) as HTMLInputElement;
 
-    formCallback(queryElem.value);
+    if (queryElem.value.length > 1) {
+      formCallback(queryElem.value);
+    }
   };
 
   return (
@@ -26,7 +28,7 @@ export default ({
         <div className="flex-1 flex items-center justify-between">
           <div className="flex-1 flex items-center justify-end space-x-2 sm:space-x-6">
             <form
-              className="flex items-center space-x-2 border rounded-md p-2"
+              className="flex items-center space-x-2 border rounded-2xl p-2"
               onSubmit={submitFunction}
             >
               <svg

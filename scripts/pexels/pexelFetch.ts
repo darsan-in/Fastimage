@@ -24,7 +24,7 @@ export default (query: string, page: number): Promise<imageMeta[]> => {
         const imageRecords = parsedResponse.data.map(
           (imageRecord): imageMeta => {
             return {
-              preview: imageRecord.attributes.image.download_link,
+              preview: imageRecord.attributes.image.medium,
               source: imageRecord.attributes.image.download,
             };
           }
