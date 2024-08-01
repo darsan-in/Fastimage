@@ -1,8 +1,7 @@
-import type { NextApiRequest } from "next";
 import { NextResponse } from "next/server";
 import getimagelist, { imageMeta } from "../../../scripts/getimagelist";
 
-export function GET(req: NextApiRequest) {
+export function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const query: string = searchParams.get("query");
   const page: number = parseInt(searchParams.get("page") ?? "1");

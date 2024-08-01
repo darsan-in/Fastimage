@@ -1,12 +1,12 @@
 "use client";
 
 import { useContext } from "react";
-import { LayoutContext } from "../app/layout";
+import { NavContext } from "../app/providerWrapper";
 import ImageRow from "./image-row";
 import Waitroom from "./waitroom";
 
 export default () => {
-  const { imageData, setImageData } = useContext(LayoutContext);
+  const { imageData } = useContext(NavContext);
 
   return (
     <>
