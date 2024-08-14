@@ -155,7 +155,7 @@ npm run dev
 
 ## In-Action 🤺
 
-<video src="in-action/demo.mp4" title="Fastimage in action"></video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lsVA0yjNYNw?si=TlkGR6TPODT426oG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## License ©️
 
