@@ -1,34 +1,22 @@
 <div align="center">
 
-# [Title] - [short desc]
+# FastImage - The Ultimate HD Image Search Engine
 
-<p id="intro">[This is a placeholder paragraph. Here some introductory text or describe the content that will eventually go in this section. This text is meant to give a sense of how the final content will look in the design.]
-</p>
-
-### Supported Platforms
-
-[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)]()
-[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
-[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Node JS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
+<p id="intro">FastImage is a comprehensive search engine designed to fetch HD images from multiple repositories in a single search. Say goodbye to jumping between major platforms; FastImage provides a one-stop solution to find every possible HD image quickly and efficiently.</p>
 
 ---
-
-[uname-holder/reponame-holder] [npm-name-holder] [wf-holder] - for test&build
 
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/commits/main">
-    <img src="https://img.shields.io/github/last-commit/uname-holder/reponame-holder?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
+  <a href="https://github.com/darsan-in/Fastimage/commits/main">
+    <img src="https://img.shields.io/github/last-commit/darsan-in/Fastimage?display_timestamp=committer&style=for-the-badge&label=Updated%20On" alt="GitHub last commit"/>
   </a>
 </span>
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/github/commit-activity/m/uname-holder/reponame-holder?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
+    <img src="https://img.shields.io/github/commit-activity/m/darsan-in/Fastimage?style=for-the-badge&label=Commit%20Activity" alt="GitHub commit activity"/>
   </a>
 </span>
 
@@ -37,14 +25,8 @@
 <p>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
-  </a>
-</span>
-
-<span>
-  <a href="https://github.com/uname-holder/reponame-holder/actions/workflows/wf-holder.yml">
-    <img src="https://img.shields.io/github/actions/workflow/status/uname-holder/reponame-holder/wf-holder.yml?style=for-the-badge&label=Test%20Status" alt="GitHub Actions Test Status"/>
+  <a href="https://github.com/darsan-in/Fastimage/actions/workflows/nextjs.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/darsan-in/Fastimage/nextjs.yml?style=for-the-badge&label=Build%20Status" alt="GitHub Actions Build Status"/>
   </a>
 </span>
 
@@ -56,13 +38,13 @@
 
 <span>
   <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/uname-holder/reponame-holder?style=for-the-badge&label=License" alt="GitHub License"/>
+    <img src="https://img.shields.io/github/license/darsan-in/Fastimage?style=for-the-badge&label=License" alt="GitHub License"/>
   </a>
 </span>
 
 <span>
-  <a href="https://github.com/uname-holder/reponame-holder/releases">
-    <img src="https://img.shields.io/github/v/release/uname-holder/reponame-holder?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
+  <a href="https://github.com/darsan-in/Fastimage/releases">
+    <img src="https://img.shields.io/github/v/release/darsan-in/Fastimage?include_prereleases&sort=date&display_name=tag&style=for-the-badge&label=Latest%20Version" alt="GitHub Release"/>
   </a>
 </span>
 
@@ -71,8 +53,8 @@
 <p>
 
 <span>
-  <a href="https://www.codefactor.io/repository/github/uname-holder/reponame-holder/issues/main">
-    <img src="https://img.shields.io/codefactor/grade/github/uname-holder/reponame-holder?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
+  <a href="https://www.codefactor.io/repository/github/darsan-in/Fastimage/issues/main">
+    <img src="https://img.shields.io/codefactor/grade/github/darsan-in/Fastimage?style=for-the-badge&label=Code%20Quality%20Grade" alt="CodeFactor Grade"/>
   </a>
 </span>
 
@@ -84,21 +66,9 @@
 
 <span>
   <a href="">
-    <img src="https://img.shields.io/npm/d18m/npm-name-holder?style=for-the-badge&label=Downloads%20On%20NPM" alt="NPM Downloads"/>
+    <img src="https://img.shields.io/github/stars/darsan-in/Fastimage?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
   </a>
 </span>
-
-<span>
-  <a href="">
-    <img src="https://img.shields.io/github/stars/uname-holder/reponame-holder?style=for-the-badge&label=Stars" alt="GitHub Repo stars"/>
-  </a>
-</span>
-
-</p>
-
----
-
-<p>
 
 <span>
   <a href="https://github.com/sponsors/darsan-in">
@@ -119,7 +89,6 @@
 - [Friendly request to users](#-friendly-request-to-users)
 
 - [Installation - Step-by-Step Guide](#installation---step-by-step-guide-)
-- [Usage](#usage)
 - [In-Action](#in-action-)
 
 - [License](#license-%EF%B8%8F)
@@ -131,14 +100,21 @@
 
 ## Features and Benefits ✨
 
-- [f1]
-- [f2]
-- [fn]
+- **Unified Search**: Search across multiple HD image repositories with a single query.
+- **High-Resolution Results**: Ensures only HD images are retrieved, saving time and effort.
+- **Time-Saving**: Eliminates the need to visit multiple image platforms individually.
+- **User-Friendly Interface**: Simple and intuitive design for an optimal user experience.
+- **Fast and Reliable**: Built to deliver search results quickly and efficiently.
+- **Comprehensive Coverage**: Access a vast collection of HD images from leading repositories.
 
 ## Use Cases ✅
 
-- [usecase 1]
-- [use case 2]
+- **Graphic Designers**: Quickly find high-quality images for projects.
+- **Content Creators**: Source HD images for blogs, articles, and social media posts.
+- **Marketers**: Access a wide range of images for campaigns without jumping between platforms.
+- **Researchers**: Efficiently gather visual data from various sources in one search.
+- **Students**: Easily locate high-resolution images for academic projects.
+- **Businesses**: Simplify the process of finding and using HD images for branding and presentations.
 
 ---
 
@@ -158,30 +134,32 @@ Thank you for being part of this journey. Your support means the world to us. �
 
 ## Installation - Step-by-Step Guide 🪜
 
-[Installation instructions here]
-
-- **Step 1:**
-- **Step 2:**
-- **Step 3:**
-- **Step 4:**
-- **Step 5:**
-
-## Usage
-
-- [purpose heading]
-  [Demonstration here]
+- **Step 1:** Install node js if not installed already.
+- **Step 2:** Now clone this repository in your local machine.
 
 ```bash
-demo
+git clone https://github.com/darsan-in/Fastimage.git
+```
+
+- **Step 3:** Open terminal in project root directory and install required packages.
+
+```bash
+npm install
+```
+
+- **Step 4:** Now you can run application locally.
+
+```bash
+npm run dev
 ```
 
 ## In-Action 🤺
 
-[video] or [gif] or [image]
+<video src="in-action/demo.mp4" title="Fastimage in action"></video>
 
 ## License ©️
 
-This project is licensed under the [Apache License 2.0 or GNU General Public License v3.0 or MIT](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
 
 ## Contributing to Our Project 🤝
 
@@ -197,7 +175,7 @@ Thank you for being part of this journey!
 
 ## Website 🌐
 
-<a id="url" href="https://darsan.in">[https://darsan.in]</a>
+<a id="url" href="http://fastimage.darsan.in/">http://fastimage.darsan.in/</a>
 
 ## Contact Information
 
@@ -205,7 +183,7 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 
 ## Credits 🙏🏻
 
-[credits to lib maintainers/creators]
+Thanks to [@cresteem/hawk-js](https://github.com/cresteem/hawk-js) for making FastImage even more powerful. This package has dramatically simplified the process of submitting sitemaps automatically to Google and all available search engines, ensuring FastImage is indexed across all platforms. It's an invaluable tool for anyone looking to enhance their website's search engine visibility. If you're looking to boost your site's indexing capabilities, [@cresteem/hawk-js](https://github.com/cresteem/hawk-js) is a must-have!
 
 ---
 
@@ -278,10 +256,23 @@ For any questions, please reach out via hello@darsan.in or [LinkedIn](https://ww
 #### Topics
 
 <ul id="keywords">
-
-<li>A</li>
-<li>B</li>
-<li>C</li>
-<li>D</li>
-
+<li>hd image search</li>
+<li>high-resolution images</li>
+<li>image search engine</li>
+<li>fast image retrieval</li>
+<li>graphic design resources</li>
+<li>content creation images</li>
+<li>visual search engine</li>
+<li>image indexing</li>
+<li>seo image search</li>
+<li>cross-platform image search</li>
+<li>image repository search</li>
+<li>image search optimization</li>
+<li>image database search</li>
+<li>multi-repository image search</li>
+<li>image search software</li>
+<li>image search solution</li>
+<li>high-res image finder</li>
+<li>image sourcing tool</li>
+<li>search engine optimization</li>
 </ul>
