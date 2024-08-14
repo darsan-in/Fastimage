@@ -155,7 +155,7 @@ npm run dev
 
 ## In-Action 🤺
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lsVA0yjNYNw?si=TlkGR6TPODT426oG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lsVA0yjNYNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## License ©️
 
