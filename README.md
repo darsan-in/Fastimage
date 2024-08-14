@@ -155,7 +155,7 @@ npm run dev
 
 ## In-Action 🤺
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lsVA0yjNYNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![FastImage - The Ultimate HD Image Search Engine](https://img.youtube.com/vi/lsVA0yjNYNw/maxresdefault.jpg)](https://www.youtube.com/watch?v=lsVA0yjNYNw)
 
 ## License ©️
 
