@@ -1,7 +1,7 @@
 {
   "name": "fastimages",
   "version": "0.0.1",
-  "description": "Search engine for collections of images from top free HD image providers.",
+  "description": "FastImage is a comprehensive search engine designed to fetch HD images from multiple repositories in a single search. Say goodbye to jumping between major platforms; FastImage provides a one-stop solution to find every possible HD image quickly and efficiently.",
   "main": "index.js",
   "repository": "https://github.com/iamspdarsan/Fastimages.git",
   "author": "PRIYADARSAN S <iamspdarsan@gmail.com>",
@@ -28,5 +28,27 @@
     "@types/react": "^18.3.3",
     "ts-node": "10.9.2",
     "typescript": "5.4.5"
-  }
+  },
+  "homepage": "http://fastimage.darsan.in/",
+  "keywords": [
+    "hd image search",
+    "high-resolution images",
+    "image search engine",
+    "fast image retrieval",
+    "graphic design resources",
+    "content creation images",
+    "visual search engine",
+    "image indexing",
+    "seo image search",
+    "cross-platform image search",
+    "image repository search",
+    "image search optimization",
+    "image database search",
+    "multi-repository image search",
+    "image search software",
+    "image search solution",
+    "high-res image finder",
+    "image sourcing tool",
+    "search engine optimization"
+  ]
 }
